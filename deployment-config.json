@@ -1,0 +1,12 @@
+[
+    {
+        "name": "linode-server",
+        "ip": "173.230.136.171",
+        "username": "root",
+        "password": "Dickson7926",
+        "port": "22",
+        "beforeHooks": "",
+        "afterHooks": "cd $ACTIVE_RELEASE_PATH && php artisan key:generate && php artisan migrate --force",
+        "path": "/var/www/html"
+    }
+]
